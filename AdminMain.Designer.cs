@@ -111,6 +111,7 @@
             this.btnEnterMarks.TabIndex = 5;
             this.btnEnterMarks.Text = "Enter Marks";
             this.btnEnterMarks.UseVisualStyleBackColor = true;
+            this.btnEnterMarks.Click += new System.EventHandler(this.btnEnterMarks_Click);
             // 
             // btnViewResults
             // 
@@ -120,6 +121,7 @@
             this.btnViewResults.TabIndex = 6;
             this.btnViewResults.Text = "View Results";
             this.btnViewResults.UseVisualStyleBackColor = true;
+            this.btnViewResults.Click += new System.EventHandler(this.btnViewResults_Click);
             // 
             // btnAnalyzeResults
             // 

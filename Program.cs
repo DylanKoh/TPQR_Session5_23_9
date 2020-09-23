@@ -16,7 +16,7 @@ namespace TPQR_Session5_23_9
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AssignSeating());
+            Application.Run(new EnterMarks());
         }
     }
 }

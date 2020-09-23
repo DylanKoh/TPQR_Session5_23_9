@@ -30,5 +30,17 @@ namespace TPQR_Session5_23_9
             (new AssignSeating()).ShowDialog();
             Close();
         }
+
+        private void btnEnterMarks_Click(object sender, EventArgs e)
+        {
+            Hide();
+            (new EnterMarks()).ShowDialog();
+            Close();
+        }
+
+        private void btnViewResults_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
